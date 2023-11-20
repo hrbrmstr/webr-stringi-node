@@ -13,7 +13,7 @@
     "url": "git+https://gitlab.com/hrbrmstr/webr-stringi-node.git"
   },
   "bin": {
-    "webrsum": "./index.js"
+    "webrsum": "index.js"
   },
   "dependencies": {
     "g": "^2.0.1",

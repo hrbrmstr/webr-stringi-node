@@ -7,7 +7,7 @@ const { loadPackages } = require('webrtools');
 const { WebR } = require('webr');
 
 const wrapLen = 60;
-const nIpsum = (process.argv[ 2 ]) ? +process.argv[ 2 ] : 1
+const nIpsum = (process.argv[2]) ? +process.argv[2] : 1
 
 const webR = new WebR();
 

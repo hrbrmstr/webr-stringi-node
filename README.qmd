@@ -1,0 +1,23 @@
+---
+title: "WebR-backed Node.JS CLI"
+format: gfm
+engine: knitr
+---
+
+This repo contains a small example of a Node.JS CLI that uses WebR to generate `n` lines of ipsum text with R's {stringi}.
+
+Clone the repo and run:
+
+```bash
+$ npm install -g
+```
+
+then run the CLI:
+
+```{bash}
+webrsum
+```
+
+```{bash}
+webrsum 3
+```

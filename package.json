@@ -1,0 +1,25 @@
+{
+  "name": "webr-stringi-node-cli",
+  "author": "boB Rudis",
+  "readme": "README.md",
+  "version": "0.1.0",
+  "description": "Generate lines of ipsum",
+  "keywords": [
+    "webR"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/hrbrmstr/webr-stringi-node.git"
+  },
+  "bin": {
+    "webrsum": "./index.js"
+  },
+  "dependencies": {
+    "g": "^2.0.1",
+    "path": "^0.12.7",
+    "webr": "0.2.1",
+    "webrtools": "^0.0.2",
+    "wordwrapjs": "^5.1.0"
+  }
+}
